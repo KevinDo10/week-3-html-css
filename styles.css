@@ -1,0 +1,88 @@
+* {
+    color: darkred;
+}
+
+.highlight {
+    color: darkblue;
+}
+
+#header {
+    background-color: lightblue;
+}
+
+p{
+    color: chocolate;
+}
+
+article p {
+    color: darkviolet;
+}
+
+article h2 {
+    color: rebeccapurple;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+h2 + p {
+    background-color: aqua;
+}
+
+h2 ~ p {
+    background-color: black;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    border-color: black;
+}
+
+button {
+    border-radius: 8px;
+    background-color: darkred;
+    color: white;
+}
+
+input[type="submit"] {
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: darkred;
+}
+
+a:hover {
+    background-color: darkgoldenrod;
+}
+
+ul li:first-child {
+    color: white;
+    background-color: black;
+}
+
+ul li:last-child {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+ul li:nth-child(2) {
+    background-color: rebeccapurple;
+    color: white;
+}
+/*if you like to use icons instead of general checkmarks*/
+p::before {
+    content: "";
+}
+
+h1,h2, p {
+    font-family: Monaco,sans-serif;
+}
+
+/*Combining Selectors*/
+p.dummy::first-letter {
+    font-size: 48px;
+}
+
+
+
